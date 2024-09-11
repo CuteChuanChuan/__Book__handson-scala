@@ -6,3 +6,5 @@ lazy val root = (project in file("."))
   .settings(
     name := "Hands-On-Scala"
   )
+
+libraryDependencies += "com.lihaoyi" %% "pprint" % "0.8.1"
